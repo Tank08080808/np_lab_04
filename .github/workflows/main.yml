@@ -13,7 +13,7 @@ jobs:
         os: [windows-latest, ubuntu-latest]
 
         python-version:
-          - { version: "3.9", exclude: ubuntu-latest }
+          - { version: "3.9" }
           - { version: "3.10", exclude: ubuntu-latest }
           - { version: "3.11" }
 
